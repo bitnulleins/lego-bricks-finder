@@ -15,6 +15,19 @@ Algorithm that calculate the optimial amount and size of LEGO bricks to build a 
 
 A full service of this algorithm (with frontend) can be bound <a href="http://bricksfinder.bit01.de" target="_blank">here</a> (German).
 
+## Installation
+
+1. Fill out [config.php](config_example.php)
+2. Import SQL to MySQL with [init_install.sql](init_install.sql)
+3. Call main function with base64 coded image:
+```php
+<?php
+require(__DIR__ . '/src/bricksfinder.class.php');
+
+$bricksfinder = new Bricksfinder(B64_STRING_HERE);
+$bricksfinder->getBricks(); // return array of bricks configuration
+```
+
 ## Result
 
 For example 3D figure of "Megaman":
@@ -23,7 +36,7 @@ For example 3D figure of "Megaman":
 
 ![Megaman small gif](https://www.bit01.de/wp-content/uploads/2020/06/Mega_Man_sprite_Left.png)
 
-**Output:**
+**(Builded) Output:**
 
 <img src="https://www.bit01.de/wp-content/uploads/2020/06/Figure.gif" />
 
