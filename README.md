@@ -1,8 +1,6 @@
 <p align="center"><img src="https://www.bit01.de/wp-content/uploads/2017/02/bit01_logo_bricksfinder.png" /></p>
 
-<p align="center">
-![Maintaince](https://img.shields.io/maintenance/no/2019) ![Release](https://img.shields.io/github/v/release/bitnulleins/lego-bricks-finder)
-  </p>
+<p align="center"><img src="https://img.shields.io/maintenance/no/2019" /> <img src="https://img.shields.io/github/v/release/bitnulleins/lego-bricks-finder" /></p>
 
 # What is Bricksfinder?
 
@@ -15,16 +13,18 @@ Algorithm that calculate the optimial amount and size of LEGO bricks to build a 
 
 ## Online service
 
-A full service of this algorithm (with frontend) can be bound [here](http://bricksfinder.bit01.de).
+A full service of this algorithm (with frontend) can be bound <a href="http://bricksfinder.bit01.de" target="_blank">here</a> (German).
 
 ## Result
 
 For example 3D figure of "Megaman":
 
 **Input:**
+
 ![Megaman small gif](https://www.bit01.de/wp-content/uploads/2020/06/Mega_Man_sprite_Left.png)
 
 **Output:**
+
 <img src="https://www.bit01.de/wp-content/uploads/2020/06/Figure.gif" />
 
 # Licence
