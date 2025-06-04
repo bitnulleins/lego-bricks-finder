@@ -13,7 +13,7 @@ Algorithm that calculate the optimial amount and size of LEGO bricks to build a 
 
 ## Online service
 
-A full service of this algorithm (with frontend) can be bound <a href="http://bricksfinder.bit01.de" target="_blank">here</a> (German).
+A full service of this algorithm (with frontend) can be bound <a href="http://bricksfinder.bitnulleins.de" target="_blank">here</a> (German).
 
 ## Installation
 
